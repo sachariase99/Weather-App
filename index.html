@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="assets/img/favicon_io/favicon.ico" type="image/x-icon">
+    <!-- MAIN STYLESHEET -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- MAIN JS -->
+    <script type="module" src="assets/js/main.js"></script>
+    <!-- LOADING SCREEN -->
+    <script src="assets/js/loadingScreen.js" defer></script>
+    <link rel="stylesheet" href="assets/css/loadingScreen.css">
+</head>
+
+<body>
+    <!-- LOADING -->
+    <div id="loading-screen">
+        <div class="loader">
+            <img src="assets/img/asshat.png" alt="Logo">
+        </div>
+    </div>
+    <div class="container">
+        <div id="topInfo"></div>
+        <div class="side-by-side-container">
+            <div id="weatherInfo"></div>
+            <div id="upcomingWeather"></div>
+        </div>
+        <div id="upcomingDaysWeather"></div>
+        <div class="searchBarContainer">
+            <input type="text" id="cityInput" class="searchBar" placeholder="Location">
+            <button id="searchButton"></button>
+        </div>
+    </div>
+</body>
+
+</html>
